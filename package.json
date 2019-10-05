@@ -1,0 +1,22 @@
+{
+  "name": "semantic-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akbfitra/semantic-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akbfitra/semantic-web/issues"
+  },
+  "homepage": "https://github.com/akbfitra/semantic-web#readme",
+  "dependencies": {
+    "jquery.easing": "^1.4.1"
+  }
+}
