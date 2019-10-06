@@ -1,10 +1,10 @@
 $(document).ready(() => {
-  $('#home').click(() => {
+  $('#homeNav').click(() => {
     $('#aboutPage').hide()
     $('#homePage').show()
   })
 
-  $('#about').click(() => {
+  $('#aboutNav').click(() => {
     $('#aboutPage').show()
     $('#homePage').hide()
   })
