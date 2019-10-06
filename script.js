@@ -1,16 +1,17 @@
 document.getElementById('view-button').innerHTML = 'Click Here';
 document.getElementById('close-button').innerHTML = 'Close';
+
 let view = document.getElementById('view-button');
 let close = document.getElementById('close-button');
 let miaw = document.getElementById('miaw');
 let kata = document.getElementById('kata');
-let open = function() {
+let open = function () {
 	miaw.style.display = 'block';
 	kata.style.display = 'block';
 	close.style.display = 'block';
 };
 
-let hide = function() {
+let hide = function () {
 	miaw.style.display = 'none';
 	kata.style.display = 'none';
 	close.style.display = 'none';
@@ -19,10 +20,10 @@ let hide = function() {
 view.onclick = open;
 close.onclick = hide;
 
-let textChange = function() {
+let textChange = function () {
 	view.innerHTML = 'How To Use';
 };
-let textReturn = function() {
+let textReturn = function () {
 	view.innerHTML = 'Back';
 };
 

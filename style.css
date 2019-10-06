@@ -1,6 +1,6 @@
 body {
-	margin: 0 auto;
-	padding: 0 auto;
+	margin: 0;
+	padding: 0;
 	background-color: rgb(250, 210, 233);
 	background-image: url("./assets/flora.jpg");
 	background-repeat: no-repeat;
@@ -49,7 +49,6 @@ body {
 	font-size: 15px;
 	font-family: DM Serif Display;
 }
-
 #close-button {
 	width: 300px;
 	height: 50px;
@@ -96,7 +95,6 @@ body {
 	left: 770px;
 	top: 250px;
 }
-
 .Re {
 	position: absolute;
 	padding-top: 248px;
@@ -109,7 +107,6 @@ body {
 	left: 830px;
 	top: 250px;
 }
-
 .Mi {
 	position: absolute;
 	padding-top: 248px;
@@ -122,7 +119,6 @@ body {
 	left: 890px;
 	top: 250px;
 }
-
 .Fa {
 	position: absolute;
 	padding-top: 248px;
@@ -135,7 +131,6 @@ body {
 	left: 950px;
 	top: 250px;
 }
-
 .Sol {
 	position: absolute;
 	padding-top: 248px;
@@ -148,7 +143,6 @@ body {
 	left: 1010px;
 	top: 250px;
 }
-
 .La {
 	position: absolute;
 	padding-top: 248px;
@@ -161,7 +155,6 @@ body {
 	left: 1070px;
 	top: 250px;
 }
-
 .Si {
 	position: absolute;
 	padding-top: 248px;
@@ -174,7 +167,6 @@ body {
 	left: 1130px;
 	top: 250px;
 }
-
 .Do1 {
 	position: absolute;
 	padding-top: 248px;
@@ -187,7 +179,6 @@ body {
 	left: 1190px;
 	top: 250px;
 }
-
 .Re_ {
 	position: absolute;
 	padding-top: 120px;
@@ -200,7 +191,6 @@ body {
 	left: 800px;
 	top: 250px;
 }
-
 .Mi_ {
 	position: absolute;
 	padding-top: 120px;
@@ -213,7 +203,6 @@ body {
 	left: 870px;
 	top: 250px;
 }
-
 .Sol_ {
 	position: absolute;
 	padding-top: 120px;
@@ -226,7 +215,6 @@ body {
 	left: 1040px;
 	top: 250px;
 }
-
 .La_ {
 	position: absolute;
 	padding-top: 120px;
@@ -239,7 +227,6 @@ body {
 	left: 1110px;
 	top: 250px;
 }
-
 .Si_ {
 	position: absolute;
 	padding-top: 120px;
@@ -252,23 +239,13 @@ body {
 	left: 1170px;
 	top: 250px;
 }
-.Do:hover,
-.Mi:hover,
-.Sol:hover,
-.Si:hover {
+.Do:hover, .Mi:hover, .Sol:hover, .Si:hover {
 	background-color: rgb(189, 27, 54);
 }
-.Re:hover,
-.Fa:hover,
-.La:hover,
-.Do1:hover {
+.Re:hover, .Fa:hover, .La:hover, .Do1:hover {
 	background-color: rgb(235, 77, 103);
 }
-.Re_:hover,
-.Mi_:hover,
-.Sol_:hover,
-.La_:hover,
-.Si_:hover {
+.Re_:hover, .Mi_:hover, .Sol_:hover, .La_:hover, .Si_:hover {
 	background-color: rgb(211, 211, 163);
 }
 #Footer {
@@ -279,7 +256,6 @@ body {
 }
 #Footer h4 {
 	text-align: right;
-	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
-		sans-serif;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 	font-weight: bold;
 }
