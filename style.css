@@ -1,0 +1,17 @@
+
+
+#profile article{  
+    margin-top: 4vh;
+}
+
+#education{
+    margin: 20px auto;
+}
+
+.jumbotron{
+    background-color: white;
+}
+.jumbotron img{
+    height: 15vh;
+    margin: 2vh;
+}
