@@ -1,0 +1,170 @@
+body {
+    background-color: rgb(234, 233, 233);
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+h1 {
+    margin-top: 8%;
+    text-align: center;
+}
+
+.countDown {
+    margin: 4em;
+    border: 2px solid #3d3d3d;
+    padding: 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.countDown table {
+    width: 100%;
+    text-align: center;
+}
+
+.countDown table strong {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.countDown:hover {
+    background: #509ea3;
+    color: white;
+    border-color: #39487a;
+    border-radius: 20px;
+    -webkit-box-shadow: -2px 4px 19px 6px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: -2px 4px 19px 6px rgba(0, 0, 0, 0.15);
+    box-shadow: -2px 4px 19px 6px rgba(0, 0, 0, 0.15);
+    -webkit-animation: reaction 0.9s both;
+    animation: reaction 0.9s both;
+    animation-delay: 1s;
+}
+
+#dateTime {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#timePicker {
+    display: block;
+    width: 60%;
+    position: relative;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#timePicker:hover {
+    background: #2be6dcbb;
+    color: rgb(202, 202, 202);
+    border-color: #39487a;
+    border-radius: 10px;
+    -webkit-box-shadow: -2px 4px 19px 6px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: -2px 4px 19px 6px rgba(0, 0, 0, 0.15);
+    box-shadow: -2px 4px 19px 6px rgba(0, 0, 0, 0.15);
+    -webkit-animation: reaction 0.9s both;
+    animation: reaction 0.9s both;
+    animation-delay: 1.5s;
+}
+
+.timerContainer {
+    margin-top: 50px;
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+}
+
+#dateTime {
+    position: relative;
+    padding: auto;
+    margin-left: 20%;
+    margin-right: 10%;
+    display: block;
+}
+
+.page-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 185, 151);
+    color: #555;
+    text-align: center;
+}
+
+#timerReset {
+    margin: 10px 40%;
+}
+
+#timerResetButton {
+    width: 100%;
+}
+
+
+/* Clock */
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+.clock {
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #333;
+    color: rgb(19, 18, 18);
+    background-color: rgba(182, 182, 182, 0.191);
+    border-radius: 15px;
+}
+
+#Date {
+    font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 0 0 5px #666768;
+}
+
+ul {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    font-size: 9em;
+    text-align: center;
+    font-family: 'Fira code' Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 5px #666768;
+}
+
+#point {
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* Stop Watch */
+
+#timer {
+    font-size: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.d-flex {
+    background-color: rgba(202, 198, 198, 0.445);
+    margin: 30px 20%;
+    border-radius: 10px;
+}
+
+#threeButtons {
+    margin: 30px auto;
+}
